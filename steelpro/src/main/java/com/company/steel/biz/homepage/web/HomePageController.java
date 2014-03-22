@@ -20,6 +20,7 @@ public class HomePageController extends BaseController {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("home");
 		
+		log.info("sss");
 		
 		return mav;
 	}
