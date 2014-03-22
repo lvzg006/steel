@@ -24,6 +24,8 @@ public class HomePageController extends BaseController {
 		log.info("git");
 		
 		log.info("git1");
+		
+		log.info("web git");
 		return mav;
 	}
 
