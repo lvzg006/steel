@@ -21,7 +21,7 @@ public class HomePageController extends BaseController {
 		mav.setViewName("home");
 		
 		log.info("sss");
-		
+		log.info("git");
 		return mav;
 	}
 
