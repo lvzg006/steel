@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="D:/workspace-sts-2.8.1.RELEASE/bus2/microloan/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.13.jar"/>
+  <context id="context1" >
+  	<commentGenerator>
+  	 <property name="suppressAllComments" value="true"/><!-- 取消生成的注释信息 -->
+  	</commentGenerator>
+    <jdbcConnection 
+    	driverClass="com.mysql.jdbc.Driver" 
+    	connectionURL="jdbc:mysql://127.0.0.1:3306/microloan" 
+    	userId="root" password="root" />
+    <javaModelGenerator targetPackage="com.company.bus.loaned.dbaccess" targetProject="loaned/src/main/java" />
+    <sqlMapGenerator targetPackage="mybatis" targetProject="loaned/src/main/resources" />
+    <table  tableName="tbl_pay_dec" 
+    	enableCountByExample="false" enableUpdateByExample="false" 
+    	enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+    	<!-- <columnOverride column="???" property="???" /> -->
+    </table>
+  </context>
+</generatorConfiguration>
